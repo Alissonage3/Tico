@@ -1,0 +1,34 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:v2="http://www.technisys.net/cmm/services/metadata/v2.0" xmlns:v1="http://www.technisys.net/cmm/services/massiveSelectCellPhoneRechargeMobileOperators/rq/v1.0">
+   <soap:Header>
+      <v2:metadata>
+         <traceNumber>100000</traceNumber>
+         <serviceId>massiveSelectCellPhoneRechargeMobileOperators</serviceId>
+         <serviceVersion>1.0</serviceVersion>
+         <sessionId>SESS_ID_BO</sessionId>
+         <executingChannel>
+            <mnemonic>8</mnemonic>
+         </executingChannel>
+         <userId>TECHNISYS01</userId>
+         <locale>pt_BR</locale>
+         <institutionId>1111</institutionId>
+         <executingOperatorId>TECHNISYS01</executingOperatorId>
+         <branchId>1</branchId>
+         <terminalId>ws</terminalId>
+         <customProperties>
+            <serviceContext>CSM</serviceContext>
+         </customProperties>
+         <businessDate>20090623000000000</businessDate>
+         <originBranchId>1</originBranchId>
+         <dependencyId>1</dependencyId>
+         <traceNumber>40784159357268455</traceNumber>
+      </v2:metadata>
+   </soap:Header>
+   <soap:Body>
+      <v1:massiveSelectCellPhoneRechargeMobileOperatorsRequest>
+         <serviceType name="operatorServiceType">
+            <!--Optional:-->
+            <serviceTypeCode>1234567890</serviceTypeCode>
+         </serviceType>
+      </v1:massiveSelectCellPhoneRechargeMobileOperatorsRequest>
+   </soap:Body>
+</soap:Envelope>
